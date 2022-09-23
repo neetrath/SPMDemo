@@ -1,4 +1,0 @@
-module _peaks_ios_lib {
-    header "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/7peaks-ios-lib-Swift.h"
-    requires objc
-}
