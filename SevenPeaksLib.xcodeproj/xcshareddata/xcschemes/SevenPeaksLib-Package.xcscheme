@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "sevenpeaks-ios-lib::sevenpeaks-ios-lib"
-               BuildableName = "sevenpeaks_ios_lib.framework"
-               BlueprintName = "sevenpeaks-ios-lib"
-               ReferencedContainer = "container:sevenpeaks-ios-lib.xcodeproj">
+               BlueprintIdentifier = "sevenpeakslib::SevenPeaksLib"
+               BuildableName = "SevenPeaksLib.framework"
+               BlueprintName = "SevenPeaksLib"
+               ReferencedContainer = "container:SevenPeaksLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "sevenpeaks-ios-lib::sevenpeaks-ios-libTests"
-               BuildableName = "sevenpeaks-ios-libTests.xctest"
-               BlueprintName = "sevenpeaks-ios-libTests"
-               ReferencedContainer = "container:sevenpeaks-ios-lib.xcodeproj">
+               BlueprintIdentifier = "sevenpeakslib::SevenPeaksLibTests"
+               BuildableName = "SevenPeaksLibTests.xctest"
+               BlueprintName = "SevenPeaksLibTests"
+               ReferencedContainer = "container:SevenPeaksLib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
