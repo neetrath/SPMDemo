@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "c577fb5842fd5c422a168e4407e03571cef3c048993cb91016e4d3f98a9eb31d"
+build_start_time: [1663903201, 652394056]
+build_end_time: [1663903201, 888502120]
+inputs:
+  "/Users/popz/Projects/7peaks-ios-lib/Sources/7peaks-ios-lib/_peaks_ios_lib.swift": [1663903185, 331499814]

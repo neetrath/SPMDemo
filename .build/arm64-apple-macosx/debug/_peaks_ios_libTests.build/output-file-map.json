@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_libTests.build/master.swiftdeps"
+  },
+  "/Users/popz/Projects/7peaks-ios-lib/Tests/7peaks-ios-libTests/_peaks_ios_libTests.swift": {
+    "dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_libTests.build/_peaks_ios_libTests.d",
+    "object": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_libTests.build/_peaks_ios_libTests.swift.o",
+    "swiftmodule": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_libTests.build/_peaks_ios_libTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_libTests.build/_peaks_ios_libTests.swiftdeps"
+  }
+}

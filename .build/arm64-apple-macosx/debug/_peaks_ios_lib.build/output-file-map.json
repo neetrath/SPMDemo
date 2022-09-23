@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/master.swiftdeps"
+  },
+  "/Users/popz/Projects/7peaks-ios-lib/Sources/7peaks-ios-lib/_peaks_ios_lib.swift": {
+    "dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/_peaks_ios_lib.d",
+    "object": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/_peaks_ios_lib.swift.o",
+    "swiftmodule": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/_peaks_ios_lib~partial.swiftmodule",
+    "swift-dependencies": "/Users/popz/Projects/7peaks-ios-lib/.build/arm64-apple-macosx/debug/_peaks_ios_lib.build/_peaks_ios_lib.swiftdeps"
+  }
+}
