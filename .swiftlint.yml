@@ -1,0 +1,9 @@
+excluded:
+#  - ${PWD}/.build
+#  - ${PWD}/build
+  
+disabled_rules: # rule identifiers to exclude from running
+- trailing_whitespace
+- trailing_comma
+- file_length
+- line_length

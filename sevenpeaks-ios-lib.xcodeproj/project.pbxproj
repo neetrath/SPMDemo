@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"sevenpeaks-ios-lib::sevenpeaks-ios-libPackageTests::ProductTarget" /* sevenpeaks-ios-libPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXAggregateTarget "sevenpeaks-ios-libPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_34 /* PBXTargetDependency */,
+			);
+			name = "sevenpeaks-ios-libPackageTests";
+			productName = "sevenpeaks-ios-libPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7E8B966128DD6B7A004012BF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B966028DD6B7A004012BF /* StringExtension.swift */; };
+		7E8B966328DD6BBA004012BF /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8B966228DD6BBA004012BF /* StringExtensionTests.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_42 /* sevenpeaks_ios_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "sevenpeaks-ios-lib::sevenpeaks-ios-lib::Product" /* sevenpeaks_ios_lib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8B965928DD6AD0004012BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "sevenpeaks-ios-lib::sevenpeaks-ios-lib";
+			remoteInfo = "sevenpeaks-ios-lib";
+		};
+		7E8B965A28DD6AD0004012BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "sevenpeaks-ios-lib::sevenpeaks-ios-libTests";
+			remoteInfo = "sevenpeaks-ios-libTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E8B965C28DD6B1A004012BF /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		7E8B966028DD6B7A004012BF /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7E8B966228DD6BBA004012BF /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"sevenpeaks-ios-lib::sevenpeaks-ios-lib::Product" /* sevenpeaks_ios_lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sevenpeaks_ios_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"sevenpeaks-ios-lib::sevenpeaks-ios-libTests::Product" /* sevenpeaks-ios-libTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "sevenpeaks-ios-libTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_42 /* sevenpeaks_ios_lib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8B965F28DD6B7A004012BF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E8B966028DD6B7A004012BF /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* sevenpeaks-ios-libTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* sevenpeaks-ios-libTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8B966228DD6BBA004012BF /* StringExtensionTests.swift */,
+			);
+			name = "sevenpeaks-ios-libTests";
+			path = "Tests/sevenpeaks-ios-libTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"sevenpeaks-ios-lib::sevenpeaks-ios-lib::Product" /* sevenpeaks_ios_lib.framework */,
+				"sevenpeaks-ios-lib::sevenpeaks-ios-libTests::Product" /* sevenpeaks-ios-libTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				7E8B965C28DD6B1A004012BF /* .swiftlint.yml */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+				OBJ_16 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* sevenpeaks-ios-lib */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* sevenpeaks-ios-lib */ = {
+			isa = PBXGroup;
+			children = (
+				7E8B965F28DD6B7A004012BF /* Extension */,
+			);
+			name = "sevenpeaks-ios-lib";
+			path = "Sources/sevenpeaks-ios-lib";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"sevenpeaks-ios-lib::SwiftPMPackageDescription" /* sevenpeaks-ios-libPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-libPackageDescription" */;
+			buildPhases = (
+				OBJ_28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sevenpeaks-ios-libPackageDescription";
+			productName = "sevenpeaks-ios-libPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"sevenpeaks-ios-lib::sevenpeaks-ios-lib" /* sevenpeaks-ios-lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-lib" */;
+			buildPhases = (
+				7E8B965B28DD6AE6004012BF /* ShellScript */,
+				OBJ_21 /* Sources */,
+				OBJ_23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sevenpeaks-ios-lib";
+			productName = sevenpeaks_ios_lib;
+			productReference = "sevenpeaks-ios-lib::sevenpeaks-ios-lib::Product" /* sevenpeaks_ios_lib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"sevenpeaks-ios-lib::sevenpeaks-ios-libTests" /* sevenpeaks-ios-libTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-libTests" */;
+			buildPhases = (
+				OBJ_39 /* Sources */,
+				OBJ_41 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_43 /* PBXTargetDependency */,
+			);
+			name = "sevenpeaks-ios-libTests";
+			productName = sevenpeaks_ios_libTests;
+			productReference = "sevenpeaks-ios-lib::sevenpeaks-ios-libTests::Product" /* sevenpeaks-ios-libTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"sevenpeaks-ios-lib::sevenpeaks-ios-libTests" = {
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "sevenpeaks-ios-lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"sevenpeaks-ios-lib::sevenpeaks-ios-lib" /* sevenpeaks-ios-lib */,
+				"sevenpeaks-ios-lib::SwiftPMPackageDescription" /* sevenpeaks-ios-libPackageDescription */,
+				"sevenpeaks-ios-lib::sevenpeaks-ios-libPackageTests::ProductTarget" /* sevenpeaks-ios-libPackageTests */,
+				"sevenpeaks-ios-lib::sevenpeaks-ios-libTests" /* sevenpeaks-ios-libTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E8B965B28DD6AE6004012BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				7E8B966128DD6B7A004012BF /* StringExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				7E8B966328DD6BBA004012BF /* StringExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "sevenpeaks-ios-lib::sevenpeaks-ios-libTests" /* sevenpeaks-ios-libTests */;
+			targetProxy = 7E8B965A28DD6AD0004012BF /* PBXContainerItemProxy */;
+		};
+		OBJ_43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "sevenpeaks-ios-lib::sevenpeaks-ios-lib" /* sevenpeaks-ios-lib */;
+			targetProxy = 7E8B965928DD6AD0004012BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "sevenpeaks-ios-lib.xcodeproj/sevenpeaks_ios_lib_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sevenpeaks-ios-lib";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "sevenpeaks-ios-lib";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "sevenpeaks-ios-lib.xcodeproj/sevenpeaks_ios_lib_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "sevenpeaks-ios-lib";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "sevenpeaks-ios-lib";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "sevenpeaks-ios-lib.xcodeproj/sevenpeaks_ios_libTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "sevenpeaks-ios-libTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "sevenpeaks-ios-lib.xcodeproj/sevenpeaks_ios_libTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "sevenpeaks-ios-libTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_18 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_19 /* Debug */,
+				OBJ_20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "sevenpeaks-ios-lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_25 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-libPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_31 /* Build configuration list for PBXAggregateTarget "sevenpeaks-ios-libPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXNativeTarget "sevenpeaks-ios-libTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

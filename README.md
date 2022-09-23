@@ -1,3 +1,3 @@
-# 7peaks-ios-lib
+# sevenpeaks-ios-lib
 
 A description of this package.
